@@ -1,0 +1,50 @@
+Unnamed: 0,Round 1,Entry,us,af,cn,me,sa,la,pa,ec,eu,se,TLTL,GL,avg,Unnamed: 16
+,,use TLTL (1) GL (2) random (3) biased towards TLTL (4) biased towards GL (5),1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,,
+3.0,ExPS,Expand policy space,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,pct of Govt debt outstanding to private lenders in policy start year
+4.0,LPB,Lending from public bodies,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30,15.0,pct of your GDP available as financing from public bodies
+5.0,LPBsplit,0 to consumption 100 to investment,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,"0=all LBP monies to consumtion, 100=all to investment"
+6.0,LPBgrant,0 loans 100 grants,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,"0=all LPB monies given as loans, 100=all as grants"
+7.0,LPBicap,Interest rate cap on LPB,No longer used,,,,,,,,,,0.0,8,4.0,%/yr interest rate cap on LPB monies
+8.0,FMPLDD ,Fraction of credit with private lenders NOT drawn down per year,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,90,45.0,Fraction of credit with private lenders drawn down per year
+9.0,TOW,Taxing Owners Wealth,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80,40.0,"0=no wealth tax, 80 means 80% of wealth is taxed away, 50: half of it"
+10.0,FPGDC ,Cancel debt from public lenders,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,"0% of outstanding debt to public lenders is cancelled, 100 all is cancelling, 50 half is cancelled; in the policy start year"
+11.0,Lfrac,Leakage fraction reduction,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,"the normal leakage is 20%, so a value of 0 reduction means that those 20% disappear, 50 % reduction means 10% disappear and 100% reduction means nothing disappears"
+12.0,SSGDR,Stretch repayment,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,5,3.0,"1 no stretching, 2 double repayment time, 3 treble repayment time, …"
+13.0,,Central Bank,,,,,,,,,,,,,,
+14.0,,,,,,,,,,,,,,,,
+15.0,,,,,,,,,,,,,,,,
+16.0,,,,,,,,,,,,,,,,
+17.0,XtaxFrac,Extra taxes paid by rich,50,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,90,70.0,"pct of extra taxes paid by owners (owners pay 50% of extra taxes even under TLTL), i.e.90 = owners pay 90 % of extra taxes, 70 = owners pay 70 % of extra taxes"
+18.0,StrUP,Strengthen Unions,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3,1.5,"pct of muliplier on share of national income. 1 multiplies with 1.01 ,2 with 1.02, etc "
+19.0,Wreaction,Worker reaction,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3,1.5,"pct of muliplier on strength of worker reaction to owner power, i.e.1 multiplies the SWROP with 1.01, 2 with 1.02, etc "
+20.0,XtaxCom,Universal basic dividend,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,2.5,"pct of GDP, i.e.  0 = 0 % of GDP, ie nothing; 5 = 5 % of GDP; 3 = 3 % of GDP, money is tranfered to general govt tax revenue"
+21.0,ICTR,Inc consumption tax rate,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10,5.0,"0 no increase, 10 by 10 percentage points,5 by 5 percentage points"
+22.0,IOITR,Inc owner income tax rate,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10,5.0,"1 no increase, 10 by 10 percentage points,5 by 5 percentage points"
+23.0,IWITR,Inc worker income tax rate,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10,5.0,"2 no increase, 10 by 10 percentage points,5 by 5 percentage points"
+24.0,Ctax,Carbon tax,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100,50.0,"0 no carbon tax, 25 = 25 $/ton, etc."
+25.0,SGRPI,Shift govt spending to investment,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50,25.0,"0 no shift, 10= 10% of consumption shifted to investment 25 = 25 % of consumption shifted to investment, etc"
+26.0,,,,,,,,,,,,,,,,
+27.0,,,,,,,,,,,,,,,,
+28.0,FEHC,Education to all,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10,5.0,"pct of muliplier on birth rate (BR), multiplies the BR with 1-(n/100) so 10 -> * 1-(10/100) = .9"
+29.0,XtaxRateEmp,Female leadership,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5,2.5,"pct of GDP, i.e.  0 = 0 % of GDP, ie nothing; 5 = 5 % of GDP; 3 = 3 % of GDP, money is tranfered to general govt tax revenue"
+30.0,SGMP,Pensions to all,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10,5.0,"pct of GDP i.e. 0 = 0 % of GDP, ie no extra pension; 5 = 5 % of GDP; 10 = 10 % of GDP, money is tranfered to workers and paid for by owners"
+31.0,,,,,,,,,,,,,,,,
+32.0,,,,,,,,,,,,,,,,
+33.0,FWRP,Food waste reduction,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,90,45.0,"pct of 'normal' waste, which is 30%, is reduced  i.e. 100 =  no more waste , 50 = waste is reduced by 50 %, 0 = waste continues as always"
+34.0,FLWR,Regenerative agriculture,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95,47.5,"pct of cropland, i.e. 50 = 50 % cropland worked regeneratively,100 = 100 % of cropland worked regneratively, etc."
+35.0,RMDR,Change diets,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95,47.5,"pct of 'normal' red meat consumption, 0 means red meat consumed as before, 50 50% replaced with lab met, 100 100% replaced with lab meat"
+36.0,RIPLGF,Reduce food imports,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50,25.0,"0 no reduction, 10=10% reduction, 50=50% reduction"
+37.0,FC,Max forest cutting,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,90,45.0,"0 no limitation on cutting, 10=10% reduction in max cut, 50=50% reduction in max cut"
+38.0,REFOREST,Reforestation,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3,1.5,"0 no reforestation, 1 = you increase the forest area by 1‰ / yr 3 = you increase the forest area by 3‰ / yr"
+39.0,,,,,,,,,,,,,,,,
+40.0,FTPEE,Energy system efficiency,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,2.5,1.75,pct of annual increase in energery efficiency; 1%/yr is the historical value over the last 40 years
+41.0,NEP,Electrify everything,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95,47.5,"pct of fossil use not used for el geneneration (mobility, heating, industrial, etc.) to be electrified"
+42.0,ISPV,Renewables,50,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,95,72.5,pct of electricity generation to be renewable (40% is the historical max value)
+43.0,CCS,CCS,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80,40.0,pct of fossil use equipped with carbon capture and storage at source
+44.0,DAC,Direct air capture,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5,0.75,"GtCO2/yr; In 2020, the regional emissions were roughly: US 5, AF 1, CN 12, the rest all between 2 and 3."
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,Poverty,,
+,,,,,,,,,,,,,,Inequality,,
+,,,,,,,,,,,,,,Empowerment,,
+,,,,,,,,,,,,,,Energy,,
+,,,,,,,,,,,,,,Food and Agri,,
