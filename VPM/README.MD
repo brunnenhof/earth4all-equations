@@ -1,0 +1,1 @@
+The VPMX file is what you need if you want to run the model with the free [Vensim Model Reader](https://vensim.com/vensim-model-reader/). **Note**, It is in **binary** format, and thus not readable by humans! Familiarity with Vensim is highly recommended.
