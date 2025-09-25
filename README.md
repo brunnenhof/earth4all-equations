@@ -2,4 +2,4 @@
 The human readable list of equations that make up the [earth4all](https://earth4all.life) regional model is in the MDL folder. For the technically minded, they are first order differential equations. To run the equations, you need [Vensim](https://vensim.com/), a propriatary software package. You can download the [Vensim Model Reader](https://vensim.com/vensim-model-reader/) which is free. It works on Windows or Mac, *not* on Linux. The reader lets you run and explore the model, but not save it. For the reader, you need the *.VPMX package that is in the VPM folder. The model also uses some exogenous data which is in the MDL folder as Excel files.
 If you want to use the model for further work in Python, Julia, or some other open-source data science package, you might find the equations listed in the order of computation useful. This is in the folder COMP.
 
-Since I am retired, both my ability and willingness to help is severly limited :)
+Since I am retired, both my ability and willingness to help is severly limited :) My email, which I check sporadically, is post at blue minus way dot net
