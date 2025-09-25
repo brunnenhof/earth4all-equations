@@ -1,1 +1,1 @@
-The TXT file contains the equations of the model in the order of execution.
+The TXT file contains the equations of the model in the order of execution. The CSV files contain data needed to initialiaze the model in CSV format. You need to create a script to read these files and create a functionting PYTHON, JULIA, etc. script. I created a PHP script that outputs functioning PYTHON code, for example.
